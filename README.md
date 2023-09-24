@@ -5,7 +5,7 @@
 # Project Background
 **기존 문제점**
 
-**필요성**
+**배경 및 필요성**
 
 # System Design
 
