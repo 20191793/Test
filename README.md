@@ -8,6 +8,7 @@
 **배경 및 필요성**
 
 # System Design
+**시스템 구성도**
 
 # Case Study
 
