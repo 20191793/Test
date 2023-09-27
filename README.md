@@ -19,6 +19,7 @@
   + 여행지 일정 관리를 도와주며, 각 여행지 간의 이동 경로를 보여주어 이동 계획에도 도움을 줄 수 있다. 무료 입장 여행지를 추천해주며 해당 여행지들 리뷰의 지표화를 통한 효과적인 정보 전달로, 여행 계획을 세우는 것에 도움을 주는 어플을 개발하는 것이다.
 # System Design
 + **시스템 구성도**
+<img src = "https://private-user-images.githubusercontent.com/128362238/270861262-1b16179f-5697-49c4-99c7-e919c6ce6ab6.PNG?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE2OTU3ODg3NjAsIm5iZiI6MTY5NTc4ODQ2MCwicGF0aCI6Ii8xMjgzNjIyMzgvMjcwODYxMjYyLTFiMTYxNzlmLTU2OTctNDljNC05OWM3LWU5MTljNmNlNmFiNi5QTkc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMwOTI3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMDkyN1QwNDIxMDBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02NGIyMTMyMTllMmMxYjFiMTBjOTM4ZmM3OWUzNDFjMDEzZWRhMzE4NTEwN2FiOWEwZTZhMDY5NTE3NDhhM2IwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.ubGqGiEJo0lRgmrlaxRr-zkxNKdxE042v864lZL8N84" width="90%"></img>
 
 + **개발 사용**
 
