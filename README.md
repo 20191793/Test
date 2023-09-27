@@ -19,25 +19,31 @@
   + 여행지 일정 관리를 도와주며, 각 여행지 간의 이동 경로를 보여주어 이동 계획에도 도움을 줄 수 있다. 무료 입장 여행지를 추천해주며 해당 여행지들 리뷰의 지표화를 통한 효과적인 정보 전달로, 여행 계획을 세우는 것에 도움을 주는 어플을 개발하는 것이다.
 # System Design
 + **시스템 구성도**
+  
 <img src = "https://user-images.githubusercontent.com/128362238/270866514-e595d0ce-909b-492d-b2df-1c6071c57d30.PNG" width="90%"></img>
 
 + **개발 기능**
   + 개발 어플리케이션의 핵심 기능 중 하나인 여행지 특성 지표는 ChatGPT를 이용하고 있다. 웹크롤링으로 얻은 정보를 ChatGPT에게 질문하고, 이를 받아 특성 지표 그림으로 표현한다.
+    
 <img src = "https://user-images.githubusercontent.com/128362238/270867098-e5fd5152-973f-458a-8ee7-1cb4d7c9937b.png" width="90%"></img>
 
   + 해당 사진은 개발 과정 중 ChatGPT가 어떤 평가를 하고, 어떻게 점수를 매기는 가를 테스트한 사진이다. 어플리케이션에는 아래의 사진과 같은 형식으로 적용된다. ChatGPT 페이지와 점수 요청 기준이 다른 이유는 테스트하기 위해 적용했던 사진이기 때문이다.
+    
 <img src = "https://user-images.githubusercontent.com/128362238/270867489-0fe74c74-04fa-4c72-bcec-745201684c76.png" width="90%"></img>
 
 
   + AI 챗봇 시스템도 ChatGPT를 이용한다. ChatGPT에게 기본 역할을 알려준 후, 사용자와 대화를 시킨다.
+    
 <img src = "https://user-images.githubusercontent.com/128362238/270867548-44c2add8-8608-49a3-a542-76e3f36aaab6.png" width="90%"></img>
 
 # Case Study
 + **웹크롤링**
   + www.tripadvisor.co.kr 를 웹크롤링하여 이를 엑셀로 저장했다.
+    
 <img src = "https://user-images.githubusercontent.com/128362238/270866719-2ea9eadb-16ac-4aee-9364-2c70b96cd37a.png" width="90%"></img>
 
   + 이후 이를 MySQL에 저장하여 개발 어플리케이션에 활용하고 있다.
+    
 <img src = "https://user-images.githubusercontent.com/128362238/270866838-2e152345-7db5-4b2b-85aa-2eff6d9c73dd.png" width="90%"></img>
 
 + **Tmap API 적용 경도 위도 변환**
@@ -46,6 +52,7 @@
 <img src = "https://user-images.githubusercontent.com/128362238/270867623-8808d275-0d1e-4295-8dcc-b0034d8a4d47.png" width="90%"></img>
 
   + 경도 위도 변환 프로그램을 이용하여 우리가 사용하는 모든 여행지에 대해 주소를 변환시켰으며, 이를 엑셀에 저장하였다. 해당 엑셀 정보를 다시 MySQL에 저장하여 이를 어플리케이션에서 활용하고 있다.
+
 <img src = "https://user-images.githubusercontent.com/128362238/270867707-b7fbf85e-e1de-4184-a631-96dbbee422a0.png" width="90%"></img>
 
  
