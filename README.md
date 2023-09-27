@@ -31,7 +31,6 @@
     
 <img src = "https://user-images.githubusercontent.com/128362238/270867489-0fe74c74-04fa-4c72-bcec-745201684c76.png" width="90%"></img>
 
-
   + AI 챗봇 시스템도 ChatGPT를 이용한다. ChatGPT에게 기본 역할을 알려준 후, 사용자와 대화를 시킨다.
     
 <img src = "https://user-images.githubusercontent.com/128362238/270867548-44c2add8-8608-49a3-a542-76e3f36aaab6.png" width="90%"></img>
